@@ -6,5 +6,9 @@ public class Main {
 		// TODO Auto-generated method stub
 
 	}
+	
+	public static void newShip() {
+		System.out.println("This is a new ship \n The ship's captain is Blackbeard");
+	}
 
 }
