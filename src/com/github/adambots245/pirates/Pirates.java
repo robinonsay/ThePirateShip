@@ -2,19 +2,8 @@ package com.github.adambots245.pirates;
 
 public class Pirates{
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  private static String[] piratePhrases = {"arg", "Ahoy!", "LandHo!", "Do you have that torrent file?"};
-=======
-  private static String[] piratePhrases = {"arg", "Ahoy!", "LandHo!", "Matey", "walk the plank"};
->>>>>>> refs/remotes/Adambots-245/master
-=======
-  private static String[] piratePhrases = {"Argh!", "Ahoy!", "LandHo!", "Matey", "walk the plank"};
->>>>>>> refs/remotes/Adambots-245/master
-=======
-  private static String[] piratePhrases = {"Argh!", "Ahoy!", "Land ho!", "Matey!", "Walk the plank!", "I have AIDS from too much forking!"};
->>>>>>> refs/remotes/Adambots-245/master
+  private static String[] piratePhrases = {"Argh!", "Ahoy!", "Land ho!", "Matey!", "Walk the plank!", "I have AIDS from too much forking!", "Do you have that torrent file?"};
+
 
   public static String getRandomPiratePhrase(){
     int maxIndex = piratePhrases.length;
