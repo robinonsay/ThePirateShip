@@ -2,7 +2,7 @@ package com.github.adambots245.pirates;
 
 public class Pirates{
 
-  private static String[] piratePhrases = {"arg", "Ahoy!", "LandHo!", "Matey", "walk the plank"};
+  private static String[] piratePhrases = {"Arghh...!", "Ahoy!", "Land Ho!", "Matey", "Walk the plank!"};
 
   public static String getRandomPiratePhrase(){
     int maxIndex = piratePhrases.length;
