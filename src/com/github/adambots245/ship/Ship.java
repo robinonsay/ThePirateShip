@@ -7,5 +7,9 @@ public static void pirateShips() {
 	System.out.println("Pirate ships can do many things  \nlike shoot other ships with cannons");
 }
 
+public static void sink(){
+	System.out.println("we sunk, you are a terrible pirate!");
+}
+
 
 }
