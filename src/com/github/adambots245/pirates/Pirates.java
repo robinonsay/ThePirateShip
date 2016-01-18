@@ -2,7 +2,6 @@ package com.github.adambots245.pirates;
 
 public class Pirates{
 
-
   private static String[] piratePhrases = {"arg", "Ahoy!", "LandHo!", "Matey", "walk the plank"};
 
   public static String getRandomPiratePhrase(){
