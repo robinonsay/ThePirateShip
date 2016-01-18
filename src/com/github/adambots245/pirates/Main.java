@@ -10,6 +10,15 @@ public class Main {
 	
 	public static void newShip() {
 		System.out.println("This is a new ship \n The ship's captain is Blackbeard");
+		int numberOfCannons = (int)(Math.random()*10+1);
+		if (numberOfCannons == 1) {
+			System.out.println("This ship is armed");
+		}
+		if(numberOfCannons > 1) {
+			System.out.println("This ship is super armed");
+		}
+		
+				
 	}
 
 }
