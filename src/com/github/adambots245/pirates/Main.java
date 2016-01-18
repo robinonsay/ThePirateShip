@@ -11,6 +11,12 @@ public class Main {
 	
 	public static void newShip() {
 		System.out.println("This is a new ship \n The ship's captain is Blackbeard");
+		int numberOfCanons = 0;
+		if (numberOfCanons >= 1) {
+			System.out.println("This ship is armed");
+		}
+		
+				
 	}
 
 }
