@@ -6,7 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Ship.pirateShips();
 		System.out.println(Pirates.getRandomPiratePhrase());
-
+		Ship.sink();
 	}
 	
 	public static void newShip() {
