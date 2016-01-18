@@ -8,6 +8,7 @@ public class Pirates {
 
 	public static String getRandomPiratePhrase() {
 		int maxIndex = piratePhrases.length;
+		return piratePhrases[(int) (Math.random() * maxIndex)];
 		//All the real pirates eat pretzels.
 	}
 }
